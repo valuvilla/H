@@ -1,6 +1,4 @@
 import pandas as pd #Importar pandas
-import numpy as np #Importar numpy
-import matplotlib.pyplot as plt #Importar matplotlib
 
 #Cargar como dataframe de pandas el csv imdb_titulos.csv y mostrar sus 5 primeros registros
 titulos_peliculas = pd.read_csv('imdb_titulos.csv')
