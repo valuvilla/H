@@ -1,6 +1,6 @@
 import pandas as pd #Importar pandas
-
 #Cargar como dataframe de pandas el csv imdb_titulos.csv y mostrar sus 5 primeros registros
+
 titulos_peliculas = pd.read_csv('imdb_titulos.csv')
 print("Cargar como dataframe de pandas el csv imdb_titulos.csv y mostrar sus 5 primeros registros","\n",titulos_peliculas.head(), "\n")
 #La función head() muestra los primeros 5 registros del dataframe, por defecto pero es modificable
